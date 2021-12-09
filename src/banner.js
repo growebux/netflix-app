@@ -49,6 +49,7 @@ function Banner() {
         <h1 className="banner_description">An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.</h1>
         {/*  description */}
       </div>
+      <div className="banner_fadeBotton" />
     </header>
   );
 }

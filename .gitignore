@@ -24,3 +24,5 @@ yarn-error.log*
 
 .build
 .firebase
+.firebase.js
+firebase.js

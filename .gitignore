@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .build
+
 .firebase
 .firebase.js
 .requests.js

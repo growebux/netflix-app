@@ -13,25 +13,24 @@ function Banner() {
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
-      );
-
-      const initCarrossel = () => {
-        setInterval(() => {
-         console.log(setMovie[fetchData()])
-        }, 20000) 
-      }
-      
-      
-      
-            
-      
-      initCarrossel()
-
+      )  
       return request;
     }
 
-    fetchData();
+    const initCarrossel = () => {
+        setInterval(() => {
+         fetchData()
+        }, 20000) 
+      }
+      
+
+    initCarrossel();
   }, []);
+
+     
+    
+
+  
 
   function truncate(string, n){
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;

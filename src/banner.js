@@ -17,12 +17,14 @@ function Banner() {
       return request;
     }
 
+    
+    fetchData();
+    
     const initCarrossel = () => {
         setInterval(() => {
          fetchData()
         }, 20000) 
-      }
-      
+      } 
 
     initCarrossel();
   }, []);

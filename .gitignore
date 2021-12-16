@@ -26,5 +26,5 @@ yarn-error.log*
 
 .firebase
 .firebase.js
-.requests.js
+.env
 

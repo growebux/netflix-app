@@ -1,4 +1,4 @@
-const API_KEY = "90d22ab44f736cf2f54d127190d1068b"
+const { REACT_APP_API_KEY: API_KEY} = process.env
 
 const requests = {
    fetchNetflixOriginals: `movie/upcoming?api_key=${API_KEY}&language=en-US`,
@@ -11,5 +11,6 @@ const requests = {
    fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
    
 }
+
 
 export default requests;

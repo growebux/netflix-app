@@ -1,5 +1,4 @@
-const API_KEY ="90d22ab44f736cf2f54d127190d1068b";
-
+const API_KEY = "90d22ab44f736cf2f54d127190d1068b"
 
 const requests = {
    fetchNetflixOriginals: `movie/upcoming?api_key=${API_KEY}&language=en-US`,

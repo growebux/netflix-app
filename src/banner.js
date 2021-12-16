@@ -23,7 +23,7 @@ function Banner() {
     const initCarrossel = () => {
         setInterval(() => {
          fetchData()
-        }, 100000) 
+        }, 10000) 
       } 
 
     initCarrossel();

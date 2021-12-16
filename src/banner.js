@@ -8,7 +8,7 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.fetchNetflixOriginals);
+      const request = await axios.get(requests.fetchTrending);
       setMovie(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
@@ -23,7 +23,7 @@ function Banner() {
     const initCarrossel = () => {
         setInterval(() => {
          fetchData()
-        }, 20000) 
+        }, 100000) 
       } 
 
     initCarrossel();

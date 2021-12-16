@@ -18,7 +18,7 @@ function Banner() {
       const initCarrossel = () => {
         setInterval(() => {
          console.log(setMovie[fetchData()])
-        }, 20000)
+        }, 20000) 
       }
       
       

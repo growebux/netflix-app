@@ -1,7 +1,8 @@
 import react from "react";
 import "./App.css";
-import { render } from "react-dom"
-import HomeScreen from "./screens/HomeScreen";
+import Layout from "./components/Layout/Layout";
+import Home from "./components/Home/Home";
+
 import {
   BrowserRouter as Routes,
   Route,
@@ -11,17 +12,9 @@ import {
 
 function App() {
   return (
-    
-        <div className="App">
-            {/* <BrowserRouter>
-                <Routes>
-                 <Route exact path="/" element={<HomeScreen />}/>
-                </Routes>
-            </BrowserRouter>, */}
-            
-        </div>
-     
-      
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 

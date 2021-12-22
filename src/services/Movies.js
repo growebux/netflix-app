@@ -20,13 +20,13 @@ export class Movies {
 
   getNetflixOriginals() {
     return this.instance.get(
-      `/movie/upcoming?api_key=${API_KEY}&language=en-US`
+      `/movie/popular?api_key=${API_KEY}&language=en-US`
     );
   }
 
   getTrends() {
     return this.instance.get(
-      `/movie/popular?api_key=${API_KEY}&language=en-US`
+      `/movie/upcoming?api_key=${API_KEY}&language=en-US`
     );
   }
 
